@@ -1,15 +1,8 @@
-import {configureStore, applyMiddleware} from 'redux';
-import {thunk} from 'redux-thunk'
-import {composeWithDevTools} from 'redux-devtools-extension';
-
-import rootreducer from './reducers/index'
-
-
+import { configureStore } from '@reduxjs/toolkit';
+import todoReducer from '../src/features/todo/todoslice'
 
 const store = configureStore({
-   reducer: rootreducer,
-   middleware: thunk,
-   DevTools: composeWithDevTools
+   reducer: todoReducer
 })
 
 export default store
