@@ -1,0 +1,41 @@
+.container {
+  size: 5rem;
+  font-size: 3rem;
+  width: 100rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  border: 1px solid black;
+  background-color: antiquewhite;
+}
+
+.container input {
+  width: 45rem;
+  height: 3rem;
+  font-size: 2.1rem;
+  position: relative;
+}
+
+.container button {
+  width: 10rem;
+  height: 3rem;
+  padding: 0.1rem;
+  position: relative;
+  left: 2rem;
+  bottom: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.container2 {
+  size: 5rem;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  jstify-content: center;
+  position: relative;
+  top: 1.5rem;
+}
